@@ -1,9 +1,13 @@
-package com.example.geektrust; 
+package com.example.geektrust;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        Sample code to read from file passed as command line argument
+        
+        //Sample code to read from file passed as command line argument
         try {
             // the file to be opened for reading
             FileInputStream fis = new FileInputStream(args[0]);
@@ -15,6 +19,6 @@ public class Main {
             sc.close(); // closes the scanner
         } catch (IOException e) {
         }
-        */
+        
     }
 }
